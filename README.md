@@ -20,7 +20,7 @@
 - *mpi4py*
 - *ninja*
 
-4. Install a *cluster-scoped init script* in your cluster. This is needed for installing the *ninja* Linux library. The script to be installed is the [*ninja_install.sh*](). You can follow [these instructions](https://docs.microsoft.com/en-us/azure/databricks/clusters/init-scripts#cluster-scoped-init-scripts) to learn how to install it.
+4. Install a *cluster-scoped init script* in your cluster. This is needed for installing the *ninja* Linux library. The script to be installed is the [*ninja_install.sh*](https://github.com/alexxx-db/huggingface-on-azure-databricks/blob/main/init_scripts/ninja_install.sh). You can follow [these instructions](https://docs.microsoft.com/en-us/azure/databricks/clusters/init-scripts#cluster-scoped-init-scripts) to learn how to install it.
 
 **The notebooks should be run in the following order:**
 
